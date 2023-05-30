@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -uo pipefail
+IFS=$'\n\t'
+
+check(){
+  printf '\e[1;42;30m      \n mypy \n      \e[0m\n'
+  if dmypy status > /dev/null 2>&1; then
+    dmypy check src
+  else
+    mypy src
+  fi
+  printf '\n\e[1;42;30m       \n tests \n       \e[0m\n'
+  pytest --doctest-modules
+}
+
+check

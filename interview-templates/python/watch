@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+cleanup(){
+  dmypy stop > /dev/null 2>&1
+}
+
+start_checking(){
+  dmypy start -- src
+  fd '.' | entr -c ./check
+}
+start_checking
+trap cleanup EXIT

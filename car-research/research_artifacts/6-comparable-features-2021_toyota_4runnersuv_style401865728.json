@@ -1,0 +1,162 @@
+{
+  "$dataset": "#/styles/401865728/comparable-features",
+  "results": {
+    "401865728": {
+      "styleId": 401865728,
+      "exteriorFeatures": {
+        "wheelDiameter": "20 in.",
+        "wheelTireSize": "20 X 7.5-in",
+        "runFlatTires": "Not available",
+        "sunroof": "standard",
+        "wheelType": "alloy wheels",
+        "allSeasonTires": "standard",
+        "wheelWidth": "7.5 in.",
+        "powerGlassSunroof": "standard",
+        "tireSize": "245/60R20"
+      },
+      "interiorFeatures": {
+        "hdRadio": "standard",
+        "destinationDownload": "Not available",
+        "upholstery": "leather",
+        "cooledVentilatedSeats": "standard",
+        "parkingAssistance": "standard",
+        "builtInHardDrive": "Not available",
+        "destinationGuidance": "Not available",
+        "powerSeats": "standard",
+        "aCWithClimateControl": "standard",
+        "navigation": "standard",
+        "roadsideAssistance": "safety connect",
+        "satelliteRadio": "standard",
+        "keylessIgnition": "standard",
+        "handFreeCalling": "Not available",
+        "heatedCooledSeats": "standard",
+        "rearSeatDvd": "Not available",
+        "premiumSoundSystem": "standard",
+        "conciergeService": "Not available",
+        "heatedSeats": "standard",
+        "iPod": "Not available",
+        "bluetooth": "standard",
+        "cruiseControl": "standard",
+        "adaptiveCruiseControl": "standard",
+        "foldingRearSeats": "standard",
+        "seatingCapacity": "5"
+      },
+      "fuelEconomy": {
+        "range": "368 / 437 miles",
+        "fuelEconomyStandard": "16 / 19 / 17 MPG",
+        "fuelTankCapacity": "23.0 gal."
+      },
+      "safety": {
+        "vehicleAlarmNotification": "Not available",
+        "emergencyService": "safety connect",
+        "stolenVehicleTrackingAssistance": "safety connect",
+        "antiTheftSystem": "standard",
+        "airbagDeploymentNotification": "safety connect",
+        "stabilityControl": "standard",
+        "antiLockBrakes": "standard",
+        "sideCurtainAirbags": "standard",
+        "childSeatAnchors": "standard",
+        "tractionControl": "standard"
+      },
+      "warranty": {
+        "freeMaintenance": "2 yr./ unlimited mi.",
+        "drivetrain": "5 yr./ 60000 mi.",
+        "basic": "3 yr./ 36000 mi."
+      },
+      "specifications": {
+        "transmission": "5-speed shiftable automatic",
+        "fuelEconomy": "16/19 mpg",
+        "engineTorque": "278 ft-lbs. @ 4400 rpm",
+        "fuelType": "regular unleaded",
+        "fuelCapacity": "23.0 gal.",
+        "engineDisplacement": "4.0 l",
+        "enginePower": "270 hp @ 5600 rpm",
+        "driveTrain": "four wheel drive",
+        "engineCylinderCount": "v6"
+      },
+      "dimensions": {
+        "frontShoulderRoom": "57.8 in.",
+        "rearShoulderRoom": "57.8 in.",
+        "rearHeadRoom": "38.6 in.",
+        "cargoSpace": "47.2 cu. ft.",
+        "frontHeadRoom": "38.6 in.",
+        "length": "190.7 in.",
+        "bedLength": "-",
+        "groundClearance": "9.6 in.",
+        "frontLegRoom": "41.7 in.",
+        "rearLegRoom": "32.9 in.",
+        "numberOfSeats": "5",
+        "wheelbase": "109.8 in.",
+        "overallWidthWithoutMirrors": "75.8 in.",
+        "curbWeight": "4805 lb.",
+        "overallWidthWithMirrors": "-",
+        "height": "71.5 in."
+      },
+      "colorFeatures": [
+        {
+          "id": "401866172",
+          "title": "Magnetic Gray Metallic",
+          "type": "EXTERIOR",
+          "primaryRgbValue": "78,78,78",
+          "secondaryRgbValue": ""
+        },
+        {
+          "id": "401866171",
+          "title": "Barcelona Red Metallic",
+          "type": "EXTERIOR",
+          "primaryRgbValue": "143,5,3",
+          "secondaryRgbValue": ""
+        },
+        {
+          "id": "401866174",
+          "title": "Nautical Blue Metallic",
+          "type": "EXTERIOR",
+          "primaryRgbValue": "48,60,100",
+          "secondaryRgbValue": ""
+        },
+        {
+          "id": "401866173",
+          "title": "Midnight Black Metallic",
+          "type": "EXTERIOR",
+          "primaryRgbValue": "23,23,23",
+          "secondaryRgbValue": ""
+        },
+        {
+          "id": "401866175",
+          "title": "Classic Silver Metallic",
+          "type": "EXTERIOR",
+          "primaryRgbValue": "174,175,171",
+          "secondaryRgbValue": ""
+        },
+        {
+          "id": "401866180",
+          "title": "Blizzard Pearl",
+          "type": "EXTERIOR",
+          "primaryRgbValue": "236,231,234",
+          "secondaryRgbValue": ""
+        },
+        {
+          "id": null,
+          "title": "Black, leather",
+          "type": "INTERIOR",
+          "primaryRgbValue": "0,0,0",
+          "secondaryRgbValue": ""
+        },
+        {
+          "id": null,
+          "title": "Sand Beige, leather",
+          "type": "INTERIOR",
+          "primaryRgbValue": "182,173,158",
+          "secondaryRgbValue": ""
+        },
+        {
+          "id": null,
+          "title": "Redwood Leather, leather",
+          "type": "INTERIOR",
+          "primaryRgbValue": "59,40,31",
+          "secondaryRgbValue": ""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$dataset": "#/toyota/4runner/2021/star-ratings",
+  "results": {
+    "1": 3,
+    "2": 3,
+    "3": 6,
+    "4": 8,
+    "5": 21,
+    "total": 41
+  }
+}

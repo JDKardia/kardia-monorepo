@@ -1,0 +1,76 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+COMMAPLACEHOLDER='COMMAPLACEHOLDER'
+#curl https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv > iana-ports.csv
+#curl https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers > wikipediaports.html
+
+cat iana-ports.csv |
+	sed '
+    1s/.*/\L&/g;
+    1s/port number/port/;
+    1s/service name/service/;
+    1s/transport protocol/protocol/' |
+	sed -E 's|""([a-zA-Z0-9 ]+)""|'"'\1'"'|g' |
+	grep -v Unassigned |
+	mlr --csv \
+		then filter '$port != ""' \
+		then put '
+      $protocol == "tcp" {
+        $tcp="True"; $udp="";     $other="" };
+      $protocol == "udp" {
+        $tcp="";     $udp="True"; $other="" };
+      $protocol != "udp" && $protocol != "tcp" {
+        $tcp="";     $udp="";     $other=$protocol };
+      $service == "" && $description == "Reserved" {
+        $tcp == "True" { $tcp = "Reserved"}
+        $udp == "True" { $udp = "Reserved"}
+      }' \
+		then cut -o -f port,service,description,tcp,udp,other >iana-portfile.csv
+
+# remove from bottom up to prevent accidental over matches, stitching into
+# one large table that I can then turn into a csv.
+
+# s|</tbody></table><h2><span class="mw-headline" id="Registered_ports">.*</th></tr><tr>|</th></tr><tr>|g;
+cat wikipediaports.html |
+	tr -d '\n' |
+	sed '
+    s|<h2><span class="mw-headline" id="Note">Note</span>.*||;
+    s|<h2><span id="Dynamic.2C_private_or_ephemeral_ports">.*</th></tr><tr>|</td></tr><tr>|g;
+    s|</tbody></table><h2><span class="mw-headline" id="Registered_ports">.*</th></tr><tr>|<tr>|g;
+    s|.*<caption>Well-known ports</caption>|<table>|;
+  ' |
+	sed -E '
+    s|</?a[^>]*>||g;
+    s|</?code>||g;
+    s|</?span[^>]*>||g;
+    s|</?i>||g
+    s|</?b>||g
+    s|<br />||g
+    s| class="[^"]+"||g;
+    s| style="[^"]+"||g;
+    s| data-sort-value="[^"]*"||g;
+    s|47808<sub>.*</sub>|47808|g
+  ' |
+	sed -E '
+    s|,|'"$COMMAPLACEHOLDER"'|g;
+    s|<sup[^>]*>[^<]*</sup>||g;
+    s|&#32;&#91;sic&#93;||g;
+    s|<td colspan="2">([a-zA-Z0-9 ]+)</td>|<td>\1</td><td>\1</td>|g;
+    s|<td colspan="3">([a-zA-Z0-9 ]+)</td>|<td>\1</td><td>\1</td><td>\1</td>|g;
+    s|<td colspan="4">([a-zA-Z0-9 ]+)</td>|<td>\1</td><td>\1</td><td>\1</td><td>\1</td>|g;
+  ' |
+	sed -E '
+     s|<table><tbody><tr><th scope="col">||g;
+     s|</td></tr></tbody></table>||g;
+     s|</td></tr><tbody><tr><th[^>]*>Port,TCP,UDP,SCTP,DCCP,Description||g;
+     s|</t[hd]></tr><tr><td[^>]*>|\n,|g;
+     s|,([0-9])|\1|g;
+     s|</th><th scope="col">|,|g;
+     s|</td><td>|,|g;
+     s|"||g;
+  '|
+  mlr --csv \
+  then fill-down -f Port \
+  then put '$Description=ssub($Description,"COMMAPLACEHOLDER",",")'

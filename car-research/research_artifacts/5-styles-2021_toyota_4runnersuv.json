@@ -1,0 +1,467 @@
+{
+  "$dataset": "#/makes/toyota/models/4runner/submodels/suv/years/2021/styles",
+  "results": [
+    {
+      "id": 401865731,
+      "$identity": "#/styles/401865731",
+      "name": "TRD OFF-ROAD Premium 4dr SUV 4WD (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "trdoffroadpremium4drsuv4wd40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865731-trd-off-road-premium-4dr-suv-4wd",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "trd-off-road-premium-4dr-suv-4wd-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "TRD OFF-ROAD Premium",
+      "makeShare": 0.02,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 43325,
+        "baseInvoice": 39858
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865727,
+      "$identity": "#/styles/401865727",
+      "name": "SR5 Premium 4dr SUV 4WD (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "sr5premium4drsuv4wd40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865727-sr5-premium-4dr-suv-4wd",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "sr5-premium-4dr-suv-4wd-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "SR5 Premium",
+      "makeShare": 0.017,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 41700,
+        "baseInvoice": 38364
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865728,
+      "$identity": "#/styles/401865728",
+      "name": "Limited 4dr SUV 4WD (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "limited4drsuv4wd40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865728-limited-4dr-suv-4wd",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "limited-4dr-suv-4wd-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "Limited",
+      "makeShare": 0.01,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 47705,
+        "baseInvoice": 43888
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865729,
+      "$identity": "#/styles/401865729",
+      "name": "Nightshade Special Edition 4dr SUV 4WD (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "nightshadespecialedition4drsuv4wd40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865729-nightshade-special-edition-4dr-suv-4wd",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "nightshade-special-edition-4dr-suv-4wd-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "Nightshade Special Edition",
+      "makeShare": 0.009,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 49120,
+        "baseInvoice": 45189
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865722,
+      "$identity": "#/styles/401865722",
+      "name": "SR5 4dr SUV 4WD (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "sr54drsuv4wd40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865722-sr5-4dr-suv-4wd",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "sr5-4dr-suv-4wd-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "SR5",
+      "makeShare": 0.007,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 38640,
+        "baseInvoice": 35548
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865732,
+      "$identity": "#/styles/401865732",
+      "name": "TRD PRO 4dr SUV 4WD (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "trdpro4drsuv4wd40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865732-trd-pro-4dr-suv-4wd",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "trd-pro-4dr-suv-4wd-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "TRD PRO",
+      "makeShare": 0.005,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 50745,
+        "baseInvoice": 46684
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401845357,
+      "$identity": "#/styles/401845357",
+      "name": "SR5 4dr SUV (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "sr54drsuv40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401845357-sr5-4dr-suv",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "sr5-4dr-suv-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "SR5",
+      "makeShare": 0.004,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 36765,
+        "baseInvoice": 33823
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865724,
+      "$identity": "#/styles/401865724",
+      "name": "Limited 4dr SUV (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "limited4drsuv40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865724-limited-4dr-suv",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "limited-4dr-suv-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "Limited",
+      "makeShare": 0.003,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 45670,
+        "baseInvoice": 42014
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865726,
+      "$identity": "#/styles/401865726",
+      "name": "TRD OFF-ROAD 4dr SUV 4WD (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "trdoffroad4drsuv4wd40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865726-trd-off-road-4dr-suv-4wd",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "trd-off-road-4dr-suv-4wd-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "TRD OFF-ROAD",
+      "makeShare": 0.003,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 40730,
+        "baseInvoice": 37471
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865730,
+      "$identity": "#/styles/401865730",
+      "name": "Venture Special Edition 4dr SUV 4WD (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "venturespecialedition4drsuv4wd40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865730-venture-special-edition-4dr-suv-4wd",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "venture-special-edition-4dr-suv-4wd-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "Venture Special Edition",
+      "makeShare": 0.003,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 44895,
+        "baseInvoice": 41302
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865725,
+      "$identity": "#/styles/401865725",
+      "name": "SR5 Premium 4dr SUV (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "sr5premium4drsuv40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865725-sr5-premium-4dr-suv",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "sr5-premium-4dr-suv-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "SR5 Premium",
+      "makeShare": 0.003,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 39825,
+        "baseInvoice": 36638
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865733,
+      "$identity": "#/styles/401865733",
+      "name": "Trail Special Edition 4dr SUV 4WD (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "trailspecialedition4drsuv4wd40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865733-trail-special-edition-4dr-suv-4wd",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "trail-special-edition-4dr-suv-4wd-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "Trail Special Edition",
+      "makeShare": 0.002,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 40615,
+        "baseInvoice": 37363
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865723,
+      "$identity": "#/styles/401865723",
+      "name": "Nightshade Special Edition 4dr SUV (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "nightshadespecialedition4drsuv40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865723-nightshade-special-edition-4dr-suv",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "nightshade-special-edition-4dr-suv-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "Nightshade Special Edition",
+      "makeShare": 0.001,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 47085,
+        "baseInvoice": 43316
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    },
+    {
+      "id": 401865773,
+      "$identity": "#/styles/401865773",
+      "name": "Trail Special Edition 4dr SUV (4.0L 6cyl 5A)",
+      "makeName": "Toyota",
+      "modelName": "4Runner",
+      "niceName": "trailspecialedition4drsuv40l6cyl5a",
+      "makeNiceName": "toyota",
+      "modelNiceName": "4runner",
+      "slug": "st-401865773-trail-special-edition-4dr-suv",
+      "makeSlug": "toyota",
+      "modelSlug": "4runner",
+      "niceId": "trail-special-edition-4dr-suv-40l-6cyl-5a",
+      "numberOfSeats": 5,
+      "year": 2021,
+      "trim": "Trail Special Edition",
+      "makeShare": 0,
+      "publicationState": "NEW_USED",
+      "price": {
+        "baseMSRP": 38740,
+        "baseInvoice": 35639
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "styleEndDate": 4092620400000
+    }
+  ]
+}

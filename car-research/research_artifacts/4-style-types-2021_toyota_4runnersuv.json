@@ -1,0 +1,821 @@
+{
+  "$dataset": "#/makes/toyota/models/4runner/submodels/suv/years",
+  "results": {
+    "1990": {
+      "id": 200669935,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 591,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "1991": {
+      "id": 200670885,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 1347,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "1992": {
+      "id": 200670886,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 1348,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "1993": {
+      "id": 200670887,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 1349,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "1994": {
+      "id": 200670888,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 1350,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "1995": {
+      "id": 200670889,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 1351,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "1996": {
+      "id": 200670890,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 1352,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "1997": {
+      "id": 200669728,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 445,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "1998": {
+      "id": 200670891,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 1353,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "1999": {
+      "id": 200673003,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 3339,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2000": {
+      "id": 200670499,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 1050,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2001": {
+      "id": 200405773,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100000246,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2002": {
+      "id": 200405893,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100000385,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2003": {
+      "id": 200406145,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100502674,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2004": {
+      "id": 200406905,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100503599,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2005": {
+      "id": 200407231,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100504842,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2006": {
+      "id": 200407794,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100506539,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2007": {
+      "id": 200408197,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100516991,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2008": {
+      "id": 200408618,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100523580,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2009": {
+      "id": 200409180,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100525885,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2010": {
+      "id": 200409561,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100528869,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2011": {
+      "id": 200410166,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100532892,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2012": {
+      "id": 200410773,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 100538849,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2013": {
+      "id": 200438343,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 200438196,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2014": {
+      "id": 200470759,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 200470521,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2015": {
+      "id": 200711010,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 200710304,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2016": {
+      "id": 200777973,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 200747158,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2017": {
+      "id": 401695129,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 401694837,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2018": {
+      "id": 401732419,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 401728169,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2019": {
+      "id": 401768358,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 401768352,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2020": {
+      "id": 401805449,
+      "pubStates": {
+        "USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 401805446,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2021": {
+      "id": 401845359,
+      "pubStates": {
+        "NEW_USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 401845355,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2022": {
+      "id": 401883967,
+      "pubStates": {
+        "NEW_USED": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 401883957,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    },
+    "2023": {
+      "id": 401922099,
+      "pubStates": {
+        "PRE_PROD": true
+      },
+      "make": {
+        "$ref": "#/makes/toyota"
+      },
+      "model": {
+        "$ref": "#/makes/toyota/models/4runner"
+      },
+      "modelYearId": 401922095,
+      "submodels": {
+        "$ref": "#/makes/toyota/models/4runner/submodels/suv"
+      },
+      "defaultByMakeShare": true,
+      "edmundsTypeCategories": {
+        "suv": {
+          "id": 12,
+          "name": "SUV"
+        }
+      },
+      "adTargetId": "4runnersuv"
+    }
+  }
+}

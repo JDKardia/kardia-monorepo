@@ -1,0 +1,74 @@
+{
+  "$dataset": "#/style/401865728/zip/60604/tco",
+  "results": {
+    "total": {
+      "federalTaxCredit": 0,
+      "insurance": 3720,
+      "maintenance": 5256,
+      "repairs": 730,
+      "taxesAndFees": 4075,
+      "financeInterest": 4701,
+      "depreciation": 13400,
+      "fuel": 17981,
+      "tcoPrice": 49863,
+      "averageCostPerMile": 0.66
+    },
+    "years": {
+      "1": {
+        "insurance": 694,
+        "maintenance": 33,
+        "repairs": 0,
+        "taxesAndFees": 3671,
+        "financeInterest": 1643,
+        "depreciation": 3345,
+        "fuel": 3387,
+        "tcoPrice": 12773,
+        "averageCostPerMile": 0.66
+      },
+      "2": {
+        "insurance": 718,
+        "maintenance": 423,
+        "repairs": 0,
+        "taxesAndFees": 101,
+        "financeInterest": 1305,
+        "depreciation": 2449,
+        "fuel": 3488,
+        "tcoPrice": 8484,
+        "averageCostPerMile": 0.66
+      },
+      "3": {
+        "insurance": 743,
+        "maintenance": 378,
+        "repairs": 107,
+        "taxesAndFees": 101,
+        "financeInterest": 954,
+        "depreciation": 2315,
+        "fuel": 3593,
+        "tcoPrice": 8191,
+        "averageCostPerMile": 0.66
+      },
+      "4": {
+        "insurance": 769,
+        "maintenance": 2216,
+        "repairs": 253,
+        "taxesAndFees": 101,
+        "financeInterest": 589,
+        "depreciation": 2717,
+        "fuel": 3701,
+        "tcoPrice": 10346,
+        "averageCostPerMile": 0.66
+      },
+      "5": {
+        "insurance": 796,
+        "maintenance": 2206,
+        "repairs": 370,
+        "taxesAndFees": 101,
+        "financeInterest": 210,
+        "depreciation": 2574,
+        "fuel": 3812,
+        "tcoPrice": 10069,
+        "averageCostPerMile": 0.66
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+oneliner to strip copied curl to minimal:
+pbpaste | sed -z "s/ -H / \\\\\n  -H /g; s/$/\\\\\n  --compressed/g" | rg "curl|User-agent|'Referer|compressed"
+
+
+year 2018-2023
+
+get years
+curl 'https://www.edmunds.com/gateway/api/vehicle/v3/modelYears?publicationStates=NEW,NEW_USED,USED&distinct=year:DESC' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+  -H 'Referer: https://www.edmunds.com/car-comparisons/' \
+  --compressed
+[2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992,1991,1990] 
+
+get makes (2021)
+  curl 'https://www.edmunds.com/gateway/api/vehicle/v3/modelYears?year=2021&publicationStates=NEW,NEW_USED,USED&pagesize=all&pagenum=1&distinct=makeName' \
+        -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+        -H 'Referer: https://www.edmunds.com/car-comparisons/' \
+        --compressed
+["Acura","Alfa Romeo","Aston Martin","Audi","BMW","Bentley","Buick","Cadillac","Chevrolet","Chrysler","Dodge","FIAT","Ford","GMC","Genesis","Honda","Hyundai","INFINITI","Jaguar","Jeep","Karma","Kia","Lamborghini","Land Rover","Lexus","Lincoln","Lotus","MINI","Maserati","Mazda","McLaren","Mercedes-Benz","Mitsubishi","Nissan","Polestar","Porsche","Ram","Subaru","Tesla","Toyota","Volkswagen","Volvo"]%
+
+get models (2021, Toyota)
+curl 'https://www.edmunds.com/gateway/api/vehicle/v3/submodels?makeNiceId=toyota&year=2021&fields=name,niceId,modelNiceId,publicationStates&sortby=name&pagesize=1000&pagenum=1' \
+-H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+-H 'Referer: https://www.edmunds.com/car-comparisons/' \
+--compressed
+{"totalNumber":26,"totalPages":1,"results":[{"name":"4Runner SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"4runner"},{"name":"Avalon Hybrid Sedan","niceId":"sedan","publicationStates":["NEW_USED"],"modelNiceId":"avalon-hybrid"},{"name":"Avalon Sedan","niceId":"sedan","publicationStates":["NEW_USED"],"modelNiceId":"avalon"},{"name":"C-HR SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"c-hr"},{"name":"Camry Hybrid Sedan","niceId":"sedan","publicationStates":["NEW_USED"],"modelNiceId":"camry-hybrid"},{"name":"Camry Sedan","niceId":"sedan","publicationStates":["NEW_USED"],"modelNiceId":"camry"},{"name":"Corolla Hatchback","niceId":"hatchback","publicationStates":["NEW_USED"],"modelNiceId":"corolla-hatchback"},{"name":"Corolla Hybrid Sedan","niceId":"sedan","publicationStates":["NEW_USED"],"modelNiceId":"corolla-hybrid"},{"name":"Corolla Sedan","niceId":"sedan","publicationStates":["NEW_USED"],"modelNiceId":"corolla"},{"name":"GR Supra Coupe","niceId":"coupe","publicationStates":["NEW_USED"],"modelNiceId":"gr-supra"},{"name":"Highlander Hybrid SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"highlander-hybrid"},{"name":"Highlander SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"highlander"},{"name":"Land Cruiser SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"land-cruiser"},{"name":"Mirai Sedan","niceId":"sedan","publicationStates":["NEW_USED"],"modelNiceId":"mirai"},{"name":"Prius Hatchback","niceId":"hatchback","publicationStates":["NEW_USED"],"modelNiceId":"prius"},{"name":"Prius Prime Hatchback","niceId":"hatchback","publicationStates":["NEW_USED"],"modelNiceId":"prius-prime"},{"name":"RAV4 Hybrid SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"rav4-hybrid"},{"name":"RAV4 Prime SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"rav4-prime"},{"name":"RAV4 SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"rav4"},{"name":"Sequoia SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"sequoia"},{"name":"Sienna Minivan","niceId":"minivan","publicationStates":["NEW_USED"],"modelNiceId":"sienna"},{"name":"Tacoma Access Cab","niceId":"access-cab","publicationStates":["NEW_USED"],"modelNiceId":"tacoma"},{"name":"Tacoma Double Cab","niceId":"double-cab","publicationStates":["NEW_USED"],"modelNiceId":"tacoma"},{"name":"Tundra CrewMax","niceId":"crewmax","publicationStates":["NEW_USED"],"modelNiceId":"tundra"},{"name":"Tundra Double Cab","niceId":"double-cab","publicationStates":["NEW_USED"],"modelNiceId":"tundra"},{"name":"Venza SUV","niceId":"suv","publicationStates":["NEW_USED"],"modelNiceId":"venza"}]}
+
+
+get style types (2021, toyota, 4runner SUV)
+curl 'https://www.edmunds.com/gateway/api/vehicle/v4/makes/toyota/models/4runner/submodels/suv/years/' \
+-H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+-H 'Referer: https://www.edmunds.com/car-comparisons/' \
+--compressed
+
+route under "$dataset" key
+
+get styles (2021, toyota, 4runner SUV) (produces style id which is used later)
+curl 'https://www.edmunds.com/gateway/api/vehicle/v4/makes/toyota/models/4runner/submodels/suv/years/2021/styles' \
+-H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+-H 'Referer: https://www.edmunds.com/car-comparisons/' \
+--compressed
+
+
+get feature information ( 2021, toyota, 4runner SUV, "Limited 4dr SUV 4WD (4.0L 6cyl 5A)"=>StyleId=401865728)
+comparable-features: 
+curl 'https://www.edmunds.com/gateway/api/vehiclefeatures/v3/comparable-features/?styleid=401865728' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+  -H 'Referer: https://www.edmunds.com/car-comparisons/?veh1=401865728' \
+  --compressed
+
+feature-specs:
+curl 'https://www.edmunds.com/gateway/api/vehicle/v5/styles/401865728/features-specs' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+  -H 'Referer: https://www.edmunds.com/car-comparisons/?veh1=401865728' \
+  --compressed
+
+Star ratings:
+curl 'https://www.edmunds.com/gateway/api/vehiclereviews/v3/toyota/4runner/2021/ratings/count/?fmt=graph' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+  -H 'Referer: https://www.edmunds.com/car-comparisons/?veh1=401865728' \
+  --compressed
+
+five year total cost to own (broken across 5 years) 
+curl 'https://www.edmunds.com/gateway/api/tco/v3/styles/401865728/zips/60604/fiveyearstco' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+  -H 'Referer: https://www.edmunds.com/car-comparisons/?veh1=401865728' \
+  --compressed
+
+Pricing information
+curl 'https://www.edmunds.com/gateway/api/newtmv/v3/calculate?styleid=401865728&zip=60604 \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0' \
+  -H 'Referer: https://www.edmunds.com/car-comparisons/?veh1=401865728' \
+  --compressed
+
+
+
+
+
+
+
+
+
+
+

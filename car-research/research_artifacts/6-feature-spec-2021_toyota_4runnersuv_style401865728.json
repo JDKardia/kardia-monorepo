@@ -1,0 +1,1522 @@
+{
+  "$dataset": "#/styles/401865728/features-specs",
+  "results": {
+    "id": 401865728,
+    "name": "Limited 4dr SUV 4WD (4.0L 6cyl 5A)",
+    "price": {
+      "baseMSRP": 47705,
+      "baseInvoice": 43888
+    },
+    "totalSeating": 5,
+    "color": {
+      "EXTERIOR": [
+        {
+          "name": "Magnetic Gray Metallic",
+          "rgb": "78,78,78"
+        },
+        {
+          "name": "Barcelona Red Metallic",
+          "rgb": "143,5,3"
+        },
+        {
+          "name": "Nautical Blue Metallic",
+          "rgb": "48,60,100"
+        },
+        {
+          "name": "Midnight Black Metallic",
+          "rgb": "23,23,23"
+        },
+        {
+          "name": "Classic Silver Metallic",
+          "rgb": "174,175,171"
+        },
+        {
+          "name": "Blizzard Pearl",
+          "rgb": "236,231,234"
+        }
+      ],
+      "INTERIOR": [
+        {
+          "name": "Black, leather",
+          "rgb": "0,0,0"
+        },
+        {
+          "name": "Sand Beige, leather",
+          "rgb": "182,173,158"
+        },
+        {
+          "name": "Redwood Leather, leather",
+          "rgb": "59,40,31"
+        }
+      ]
+    },
+    "features": {
+      "standard": {
+        "Safety": [
+          {
+            "name": "lane departure warning accident avoidance system"
+          },
+          {
+            "name": "pre-collision safety system"
+          },
+          {
+            "name": "post-collision safety system"
+          },
+          {
+            "name": "dual front side-mounted airbags"
+          },
+          {
+            "name": "front and rear head airbags"
+          },
+          {
+            "name": "Passenger airbag occupant sensing deactivation"
+          },
+          {
+            "name": "stability control"
+          },
+          {
+            "name": "traction control"
+          },
+          {
+            "name": "child seat anchors"
+          },
+          {
+            "name": "Rear door child safety locks"
+          },
+          {
+            "name": "4-wheel ABS"
+          },
+          {
+            "name": "Front and rear ventilated disc brakes"
+          },
+          {
+            "name": "Emergency braking assist"
+          },
+          {
+            "name": "tire pressure monitoring"
+          },
+          {
+            "name": "dusk sensing headlamps"
+          },
+          {
+            "name": "auto delay off headlamps"
+          },
+          {
+            "name": "LED headlamp"
+          },
+          {
+            "name": "daytime running lights"
+          },
+          {
+            "name": "front fog/driving lights"
+          },
+          {
+            "name": "Turn signal mirrors"
+          },
+          {
+            "name": "2 front headrests"
+          },
+          {
+            "name": "3 rear headrests"
+          },
+          {
+            "name": "Rear height adjustable headrests"
+          },
+          {
+            "name": "Rear center 3-point belt"
+          },
+          {
+            "name": "remote anti-theft alarm system"
+          },
+          {
+            "name": "engine immobilizer"
+          }
+        ],
+        "Warranty": [
+          {
+            "name": "Basic",
+            "value": "3 yr./ 36000 mi."
+          },
+          {
+            "name": "Drivetrain",
+            "value": "5 yr./ 60000 mi."
+          },
+          {
+            "name": "Rust",
+            "value": "5 yr./ unlimited mi."
+          },
+          {
+            "name": "Roadside",
+            "value": "2 yr./ unlimited mi."
+          }
+        ],
+        "Drive Train": [
+          {
+            "name": "Transmission",
+            "value": "5-speed shiftable automatic"
+          },
+          {
+            "name": "Drive type",
+            "value": "four wheel drive"
+          },
+          {
+            "name": "full time 4WD"
+          },
+          {
+            "name": "Center locking differential"
+          },
+          {
+            "name": "descent control"
+          }
+        ],
+        "Engine": [
+          {
+            "name": "Base engine size",
+            "value": "4.0 L"
+          },
+          {
+            "name": "Cylinders",
+            "value": "V6"
+          },
+          {
+            "name": "Base engine type",
+            "value": "gas"
+          },
+          {
+            "name": "Horsepower",
+            "value": "270 hp @ 5600 rpm"
+          },
+          {
+            "name": "Torque",
+            "value": "278 lb-ft @ 4400 rpm"
+          },
+          {
+            "name": "Valves",
+            "value": "24"
+          },
+          {
+            "name": "Cam type",
+            "value": "Double overhead cam (DOHC)"
+          },
+          {
+            "name": "Valve timing",
+            "value": "Variable"
+          }
+        ],
+        "Measurements": [
+          {
+            "name": "Length",
+            "value": "190.7 in."
+          },
+          {
+            "name": "Overall Width without Mirrors",
+            "value": "75.8 in."
+          },
+          {
+            "name": "Height",
+            "value": "71.5 in."
+          },
+          {
+            "name": "Wheel base",
+            "value": "109.8 in."
+          },
+          {
+            "name": "EPA interior volume",
+            "value": "144.5 cu.ft."
+          },
+          {
+            "name": "Cargo capacity, all seats in place",
+            "value": "47.2 cu.ft."
+          },
+          {
+            "name": "Maximum cargo capacity",
+            "value": "89.7 cu.ft."
+          },
+          {
+            "name": "Turning circle",
+            "value": "37.4 ft."
+          },
+          {
+            "name": "Ground clearance",
+            "value": "9.6 in."
+          },
+          {
+            "name": "Angle of approach",
+            "value": "33.0 degrees"
+          },
+          {
+            "name": "Angle of departure",
+            "value": "26.0 degrees"
+          },
+          {
+            "name": "Curb weight",
+            "value": "4805 lbs."
+          },
+          {
+            "name": "Maximum towing capacity",
+            "value": "5000 lbs."
+          },
+          {
+            "name": "Maximum payload",
+            "value": "1495 lbs."
+          },
+          {
+            "name": "Gross weight",
+            "value": "6300 lbs."
+          }
+        ],
+        "Frontseats": [
+          {
+            "name": "Front head room",
+            "value": "38.6 in."
+          },
+          {
+            "name": "Front leg room",
+            "value": "41.7 in."
+          },
+          {
+            "name": "Front shoulder room",
+            "value": "57.8 in."
+          },
+          {
+            "name": "Front hip room",
+            "value": "56.5 in."
+          },
+          {
+            "name": "leather"
+          },
+          {
+            "name": "bucket front seats"
+          },
+          {
+            "name": "8 -way power driver seat"
+          },
+          {
+            "name": "height adjustable driver seat"
+          },
+          {
+            "name": "Driver seat with power adjustable lumbar support"
+          },
+          {
+            "name": "4 -way power passenger seat"
+          },
+          {
+            "name": "multi-level heating driver seat"
+          },
+          {
+            "name": "multi-level heating passenger seat"
+          },
+          {
+            "name": "ventilated driver seat"
+          },
+          {
+            "name": "ventilated passenger seat"
+          }
+        ],
+        "Rearseats": [
+          {
+            "name": "Rear head room",
+            "value": "38.6 in."
+          },
+          {
+            "name": "Rear leg room",
+            "value": "32.9 in."
+          },
+          {
+            "name": "Rear shoulder room",
+            "value": "57.8 in."
+          },
+          {
+            "name": "Rear hip Room",
+            "value": "55.7 in."
+          },
+          {
+            "name": "Split-folding rear seatback"
+          },
+          {
+            "name": "reclining rear seats"
+          },
+          {
+            "name": "folding with storage center armrest"
+          },
+          {
+            "name": "rear ventilation ducts"
+          }
+        ],
+        "Suspension": [
+          {
+            "name": "front independent suspension"
+          },
+          {
+            "name": "Front and rear stabilizer bar"
+          }
+        ],
+        "Fuel": [
+          {
+            "name": "Fuel type",
+            "value": "regular unleaded"
+          },
+          {
+            "name": "EPA mileage est. (cty/hwy)",
+            "value": "16/19 MPG"
+          },
+          {
+            "name": "Combined MPG",
+            "value": "17 MPG"
+          },
+          {
+            "name": "Range in miles (cty/hwy)",
+            "value": "368.0/437.0 mi."
+          },
+          {
+            "name": "Fuel tank capacity",
+            "value": "23.0 gal."
+          }
+        ],
+        "Comfort & Convenience": [
+          {
+            "name": "keyless ignition"
+          },
+          {
+            "name": "tilt and telescopic steering wheel"
+          },
+          {
+            "name": "Audio and cruise controls on steering wheel"
+          },
+          {
+            "name": "power steering"
+          },
+          {
+            "name": "rear view camera"
+          },
+          {
+            "name": "front and rear parking sensors"
+          },
+          {
+            "name": "adaptive cruise control"
+          },
+          {
+            "name": "universal remote transmitter (for garage door, security system, etc.)"
+          },
+          {
+            "name": "front and rear cupholders"
+          },
+          {
+            "name": "front and rear door pockets"
+          },
+          {
+            "name": "overhead console with storage"
+          },
+          {
+            "name": "leather and simulated alloy steering wheel"
+          },
+          {
+            "name": "Dual zone front climate control"
+          },
+          {
+            "name": "interior air filtration"
+          },
+          {
+            "name": "Dual illuminating vanity mirrors"
+          },
+          {
+            "name": "electrochromatic inside rearview mirror"
+          },
+          {
+            "name": "turn signal in mirrors"
+          }
+        ],
+        "Power Feature": [
+          {
+            "name": "4 one-touch power windows"
+          },
+          {
+            "name": "hands-free entry"
+          },
+          {
+            "name": "Heated mirrors"
+          }
+        ],
+        "Instrumentation": [
+          {
+            "name": "trip computer"
+          },
+          {
+            "name": "compass"
+          },
+          {
+            "name": "external temperature display"
+          },
+          {
+            "name": "tachometer"
+          },
+          {
+            "name": "clock"
+          }
+        ],
+        "Telematics": [
+          {
+            "name": "Emergency Service"
+          },
+          {
+            "name": "Airbag Deployment Notification"
+          },
+          {
+            "name": "Stolen Vehicle Tracking/Assistance"
+          },
+          {
+            "name": "Roadside Assistance"
+          }
+        ],
+        "In Car Entertainment": [
+          {
+            "name": "AM/FM  stereo"
+          },
+          {
+            "name": "JBL premium brand stereo system"
+          },
+          {
+            "name": "JBL premium brand speakers"
+          },
+          {
+            "name": "550 watts stereo output"
+          },
+          {
+            "name": "15 total speakers"
+          },
+          {
+            "name": "1 subwoofer(s)"
+          },
+          {
+            "name": "USB connection"
+          },
+          {
+            "name": "auxiliary audio input and USB with external media control"
+          },
+          {
+            "name": "satellite radio w/real time traffic satellite radio"
+          },
+          {
+            "name": "3 Months of provided satellite radio service"
+          }
+        ],
+        "Tires and Wheels": [
+          {
+            "name": "alloy wheels"
+          },
+          {
+            "name": "20 x 7.5 in. wheels"
+          },
+          {
+            "name": "All season tires"
+          },
+          {
+            "name": "P245/60R20 tires"
+          },
+          {
+            "name": "fullsize matching spare tire"
+          },
+          {
+            "name": "underbody mounted spare tire"
+          }
+        ]
+      },
+      "optional": {
+        "Interior Options": [
+          {
+            "name": "Covercraft Pet Seat Cover - Tan",
+            "price": 279
+          },
+          {
+            "name": "Covercraft Pet Seat Cover - Gray",
+            "price": 279
+          },
+          {
+            "name": "Sliding Rear Cargo Deck",
+            "price": 350
+          },
+          {
+            "name": "Leather-Trimmed 50/50 Split Fold Flat Third Row Seat",
+            "price": 1365
+          },
+          {
+            "name": "All Weather Floor Liners",
+            "price": 169
+          },
+          {
+            "name": "Carpet Cargo Mat",
+            "price": 100
+          },
+          {
+            "name": "Carpet Floor Mats",
+            "price": 169
+          },
+          {
+            "name": "Covercraft Pet Seat Cover - Black",
+            "price": 279
+          },
+          {
+            "name": "Cargo Cover",
+            "price": 179
+          },
+          {
+            "name": "Cargo Tray",
+            "price": 100
+          },
+          {
+            "name": "Cargo Divider",
+            "price": 149
+          },
+          {
+            "name": "Dashcam",
+            "price": 499
+          },
+          {
+            "name": "TRD Shift Knob - Black",
+            "price": 99
+          },
+          {
+            "name": "TRD Shift Knob - Silver",
+            "price": 95
+          },
+          {
+            "name": "Cargo Net - Envelope",
+            "price": 49
+          },
+          {
+            "name": "Cargo Tote",
+            "price": 51
+          },
+          {
+            "name": "Coin Holder/Ashtray Cup",
+            "price": 29
+          },
+          {
+            "name": "Universal Tablet Holder",
+            "price": 99
+          }
+        ],
+        "Exterior Options": [
+          {
+            "name": "Special Color",
+            "price": 425
+          },
+          {
+            "name": "Automatic Running Boards",
+            "price": 1500
+          },
+          {
+            "name": "Alloy Wheel Locks",
+            "price": 80
+          },
+          {
+            "name": "Exhaust Tip - Black Chrome",
+            "price": 90
+          },
+          {
+            "name": "Paint Protection Film (Front Bumper)",
+            "price": 485
+          },
+          {
+            "name": "TRD Front Skid Plate",
+            "price": 350
+          },
+          {
+            "name": "Running Boards",
+            "price": 599
+          },
+          {
+            "name": "Rock Rails",
+            "price": 575
+          },
+          {
+            "name": "Trailer Ball - 2 5/16\"",
+            "price": 29
+          },
+          {
+            "name": "TRD PRO 17\" Alloy Wheels - Matte Black",
+            "price": 1350
+          },
+          {
+            "name": "Trailer Ball - 2\"",
+            "price": 20
+          },
+          {
+            "name": "TRD 17\" Cast Bronze Wheel",
+            "price": 1350
+          },
+          {
+            "name": "Trail Running Boards",
+            "price": 599
+          },
+          {
+            "name": "Mudguards",
+            "price": 129
+          },
+          {
+            "name": "Ball Mount",
+            "price": 60
+          },
+          {
+            "name": "Door Edge Guards",
+            "price": 79
+          },
+          {
+            "name": "Hood Protector",
+            "price": 165
+          },
+          {
+            "name": "Exhaust Tip - Chrome",
+            "price": 90
+          },
+          {
+            "name": "Paint Protection Film",
+            "price": 395
+          },
+          {
+            "name": "Roof Rack Cross Bars",
+            "price": 185
+          }
+        ],
+        "Packages": [
+          {
+            "name": "Convenience Package",
+            "price": 355
+          },
+          {
+            "name": "Carpet Floor Mats & Cargo Mat Package",
+            "price": 269
+          },
+          {
+            "name": "Preferred Accessory Package",
+            "price": 398
+          },
+          {
+            "name": "Dual USB Power Port/Quick Charge Cable Package",
+            "price": 199
+          },
+          {
+            "name": "Quick Charge Cable Package",
+            "price": 70
+          },
+          {
+            "name": "Wilderness Package",
+            "price": 454
+          },
+          {
+            "name": "Four Season Floor Mat Package",
+            "price": 438
+          },
+          {
+            "name": "All-Weather Floor Liner & Cargo Tray Package",
+            "price": 269
+          }
+        ],
+        "Mechanical Options": [
+          {
+            "name": "TRD Oil Cap",
+            "price": 45
+          },
+          {
+            "name": "TRD Air Filter",
+            "price": 95
+          },
+          {
+            "name": "TRD Radiator Cap",
+            "price": 38
+          },
+          {
+            "name": "TRD Oil Filter",
+            "price": 20
+          }
+        ],
+        "Safety & Security Options": [
+          {
+            "name": "Emergency Assistance Kit",
+            "price": 59
+          }
+        ],
+        "Additional Fees Options": [
+          {
+            "name": "Keep It Wild Savings",
+            "price": -1000
+          },
+          {
+            "name": "50 State Emissions",
+            "price": 0
+          }
+        ]
+      }
+    },
+    "edmundsTypeCategories": {
+      "suv": {
+        "id": 12,
+        "name": "SUV"
+      }
+    },
+    "orderedFeatures": [
+      {
+        "category": "Fuel",
+        "categoryGroup": "Mechanical",
+        "features": [
+          {
+            "name": "Fuel type",
+            "value": "Regular unleaded"
+          },
+          {
+            "name": "EPA mileage est. (cty/hwy)",
+            "value": "16/19 MPG"
+          },
+          {
+            "name": "Combined MPG",
+            "value": "17 MPG"
+          },
+          {
+            "name": "Range in miles (cty/hwy)",
+            "value": "368.0/437.0 mi."
+          },
+          {
+            "name": "Fuel tank capacity",
+            "value": "23.0 gal."
+          }
+        ]
+      },
+      {
+        "category": "Engine",
+        "categoryGroup": "Mechanical",
+        "features": [
+          {
+            "name": "Base engine size",
+            "value": "4.0 L"
+          },
+          {
+            "name": "Cylinders",
+            "value": "V6"
+          },
+          {
+            "name": "Base engine type",
+            "value": "Gas"
+          },
+          {
+            "name": "Horsepower",
+            "value": "270 hp @ 5600 rpm"
+          },
+          {
+            "name": "Torque",
+            "value": "278 lb-ft @ 4400 rpm"
+          },
+          {
+            "name": "Valves",
+            "value": "24"
+          },
+          {
+            "name": "Cam type",
+            "value": "Double overhead cam (DOHC)"
+          },
+          {
+            "name": "Valve timing",
+            "value": "Variable"
+          }
+        ]
+      },
+      {
+        "category": "Drive Train",
+        "categoryGroup": "Mechanical",
+        "features": [
+          {
+            "name": "Transmission",
+            "value": "5-speed shiftable automatic"
+          },
+          {
+            "name": "Drive type",
+            "value": "Four wheel drive"
+          },
+          {
+            "name": "Full time 4WD"
+          },
+          {
+            "name": "Center locking differential"
+          },
+          {
+            "name": "Descent control"
+          }
+        ]
+      },
+      {
+        "category": "Suspension",
+        "categoryGroup": "Mechanical",
+        "features": [
+          {
+            "name": "Front independent suspension"
+          },
+          {
+            "name": "Front and rear stabilizer bar"
+          }
+        ]
+      },
+      {
+        "category": "Measurements",
+        "categoryGroup": "Exterior",
+        "features": [
+          {
+            "name": "Length",
+            "value": "190.7 in."
+          },
+          {
+            "name": "Overall Width without Mirrors",
+            "value": "75.8 in."
+          },
+          {
+            "name": "Height",
+            "value": "71.5 in."
+          },
+          {
+            "name": "Wheel base",
+            "value": "109.8 in."
+          },
+          {
+            "name": "EPA interior volume",
+            "value": "144.5 cu.ft."
+          },
+          {
+            "name": "Cargo capacity, all seats in place",
+            "value": "47.2 cu.ft."
+          },
+          {
+            "name": "Maximum cargo capacity",
+            "value": "89.7 cu.ft."
+          },
+          {
+            "name": "Turning circle",
+            "value": "37.4 ft."
+          },
+          {
+            "name": "Ground clearance",
+            "value": "9.6 in."
+          },
+          {
+            "name": "Angle of approach",
+            "value": "33.0 degrees"
+          },
+          {
+            "name": "Angle of departure",
+            "value": "26.0 degrees"
+          },
+          {
+            "name": "Curb weight",
+            "value": "4805 lbs."
+          },
+          {
+            "name": "Maximum towing capacity",
+            "value": "5000 lbs."
+          },
+          {
+            "name": "Maximum payload",
+            "value": "1495 lbs."
+          },
+          {
+            "name": "Gross weight",
+            "value": "6300 lbs."
+          }
+        ]
+      },
+      {
+        "category": "Frontseats",
+        "categoryGroup": "Interior",
+        "features": [
+          {
+            "name": "Front head room",
+            "value": "38.6 in."
+          },
+          {
+            "name": "Front leg room",
+            "value": "41.7 in."
+          },
+          {
+            "name": "Front shoulder room",
+            "value": "57.8 in."
+          },
+          {
+            "name": "Front hip room",
+            "value": "56.5 in."
+          },
+          {
+            "name": "Leather"
+          },
+          {
+            "name": "Bucket front seats"
+          },
+          {
+            "name": "8 -way power driver seat"
+          },
+          {
+            "name": "Height adjustable driver seat"
+          },
+          {
+            "name": "Driver seat with power adjustable lumbar support"
+          },
+          {
+            "name": "4 -way power passenger seat"
+          },
+          {
+            "name": "Multi-level heating driver seat"
+          },
+          {
+            "name": "Multi-level heating passenger seat"
+          },
+          {
+            "name": "Ventilated driver seat"
+          },
+          {
+            "name": "Ventilated passenger seat"
+          }
+        ]
+      },
+      {
+        "category": "Rearseats",
+        "categoryGroup": "Interior",
+        "features": [
+          {
+            "name": "Rear head room",
+            "value": "38.6 in."
+          },
+          {
+            "name": "Rear leg room",
+            "value": "32.9 in."
+          },
+          {
+            "name": "Rear shoulder room",
+            "value": "57.8 in."
+          },
+          {
+            "name": "Rear hip Room",
+            "value": "55.7 in."
+          },
+          {
+            "name": "Split-folding rear seatback"
+          },
+          {
+            "name": "Reclining rear seats"
+          },
+          {
+            "name": "Folding with storage center armrest"
+          },
+          {
+            "name": "Rear ventilation ducts"
+          }
+        ]
+      },
+      {
+        "category": "Safety",
+        "categoryGroup": "Safety",
+        "features": [
+          {
+            "name": "Lane departure warning accident avoidance system"
+          },
+          {
+            "name": "Pre-collision safety system"
+          },
+          {
+            "name": "Post-collision safety system"
+          },
+          {
+            "name": "Dual front side-mounted airbags"
+          },
+          {
+            "name": "Front and rear head airbags"
+          },
+          {
+            "name": "Passenger airbag occupant sensing deactivation"
+          },
+          {
+            "name": "Stability control"
+          },
+          {
+            "name": "Traction control"
+          },
+          {
+            "name": "Child seat anchors"
+          },
+          {
+            "name": "Rear door child safety locks"
+          },
+          {
+            "name": "4-wheel ABS"
+          },
+          {
+            "name": "Front and rear ventilated disc brakes"
+          },
+          {
+            "name": "Emergency braking assist"
+          },
+          {
+            "name": "Tire pressure monitoring"
+          },
+          {
+            "name": "Dusk sensing headlamps"
+          },
+          {
+            "name": "Auto delay off headlamps"
+          },
+          {
+            "name": "LED headlamp"
+          },
+          {
+            "name": "Daytime running lights"
+          },
+          {
+            "name": "Front fog/driving lights"
+          },
+          {
+            "name": "Turn signal mirrors"
+          },
+          {
+            "name": "2 front headrests"
+          },
+          {
+            "name": "3 rear headrests"
+          },
+          {
+            "name": "Rear height adjustable headrests"
+          },
+          {
+            "name": "Rear center 3-point belt"
+          },
+          {
+            "name": "Remote anti-theft alarm system"
+          },
+          {
+            "name": "Engine immobilizer"
+          }
+        ]
+      },
+      {
+        "category": "In Car Entertainment",
+        "categoryGroup": "Interior",
+        "features": [
+          {
+            "name": "AM/FM  stereo"
+          },
+          {
+            "name": "JBL premium brand stereo system"
+          },
+          {
+            "name": "JBL premium brand speakers"
+          },
+          {
+            "name": "550 watts stereo output"
+          },
+          {
+            "name": "15 total speakers"
+          },
+          {
+            "name": "1 subwoofer(s)"
+          },
+          {
+            "name": "USB connection"
+          },
+          {
+            "name": "Auxiliary audio input and USB with external media control"
+          },
+          {
+            "name": "Satellite radio w/real time traffic satellite radio"
+          },
+          {
+            "name": "3 Months of provided satellite radio service"
+          }
+        ]
+      },
+      {
+        "category": "Power Feature",
+        "categoryGroup": "Interior",
+        "features": [
+          {
+            "name": "4 one-touch power windows"
+          },
+          {
+            "name": "Hands-free entry"
+          },
+          {
+            "name": "Heated mirrors"
+          }
+        ]
+      },
+      {
+        "category": "Comfort & Convenience",
+        "categoryGroup": "Interior",
+        "features": [
+          {
+            "name": "Keyless ignition"
+          },
+          {
+            "name": "Tilt and telescopic steering wheel"
+          },
+          {
+            "name": "Audio and cruise controls on steering wheel"
+          },
+          {
+            "name": "Power steering"
+          },
+          {
+            "name": "Rear view camera"
+          },
+          {
+            "name": "Front and rear parking sensors"
+          },
+          {
+            "name": "Adaptive cruise control"
+          },
+          {
+            "name": "Universal remote transmitter (for garage door, security system, etc.)"
+          },
+          {
+            "name": "Front and rear cupholders"
+          },
+          {
+            "name": "Front and rear door pockets"
+          },
+          {
+            "name": "Overhead console with storage"
+          },
+          {
+            "name": "Leather and simulated alloy steering wheel"
+          },
+          {
+            "name": "Dual zone front climate control"
+          },
+          {
+            "name": "Interior air filtration"
+          },
+          {
+            "name": "Dual illuminating vanity mirrors"
+          },
+          {
+            "name": "Electrochromatic inside rearview mirror"
+          },
+          {
+            "name": "Turn signal in mirrors"
+          }
+        ]
+      },
+      {
+        "category": "Instrumentation",
+        "categoryGroup": "Interior",
+        "features": [
+          {
+            "name": "Trip computer"
+          },
+          {
+            "name": "Compass"
+          },
+          {
+            "name": "External temperature display"
+          },
+          {
+            "name": "Tachometer"
+          },
+          {
+            "name": "Clock"
+          }
+        ]
+      },
+      {
+        "category": "Tires and Wheels",
+        "categoryGroup": "Exterior",
+        "features": [
+          {
+            "name": "Alloy wheels"
+          },
+          {
+            "name": "20 x 7.5 in. wheels"
+          },
+          {
+            "name": "All season tires"
+          },
+          {
+            "name": "P245/60R20 tires"
+          },
+          {
+            "name": "Fullsize matching spare tire"
+          },
+          {
+            "name": "Underbody mounted spare tire"
+          }
+        ]
+      },
+      {
+        "category": "Telematics",
+        "categoryGroup": "Telematics",
+        "features": [
+          {
+            "name": "Emergency Service"
+          },
+          {
+            "name": "Airbag Deployment Notification"
+          },
+          {
+            "name": "Stolen Vehicle Tracking/Assistance"
+          },
+          {
+            "name": "Roadside Assistance"
+          }
+        ]
+      },
+      {
+        "category": "Warranty",
+        "categoryGroup": "Warranty",
+        "features": [
+          {
+            "name": "Basic",
+            "value": "3 yr./ 36000 mi."
+          },
+          {
+            "name": "Drivetrain",
+            "value": "5 yr./ 60000 mi."
+          },
+          {
+            "name": "Rust",
+            "value": "5 yr./ unlimited mi."
+          },
+          {
+            "name": "Roadside",
+            "value": "2 yr./ unlimited mi."
+          }
+        ]
+      },
+      {
+        "category": "Mechanical Options",
+        "categoryGroup": "Mechanical",
+        "features": [
+          {
+            "name": "TRD Oil Cap",
+            "price": 45
+          },
+          {
+            "name": "TRD Air Filter",
+            "price": 95
+          },
+          {
+            "name": "TRD Radiator Cap",
+            "price": 38
+          },
+          {
+            "name": "TRD Oil Filter",
+            "price": 20
+          }
+        ]
+      },
+      {
+        "category": "Packages",
+        "categoryGroup": "Packages",
+        "features": [
+          {
+            "name": "Convenience Package",
+            "price": 355
+          },
+          {
+            "name": "Carpet Floor Mats & Cargo Mat Package",
+            "price": 269
+          },
+          {
+            "name": "Preferred Accessory Package",
+            "price": 398
+          },
+          {
+            "name": "Dual USB Power Port/Quick Charge Cable Package",
+            "price": 199
+          },
+          {
+            "name": "Quick Charge Cable Package",
+            "price": 70
+          },
+          {
+            "name": "Wilderness Package",
+            "price": 454
+          },
+          {
+            "name": "Four Season Floor Mat Package",
+            "price": 438
+          },
+          {
+            "name": "All-Weather Floor Liner & Cargo Tray Package",
+            "price": 269
+          }
+        ]
+      },
+      {
+        "category": "Safety & Security Options",
+        "categoryGroup": "Safety",
+        "features": [
+          {
+            "name": "Emergency Assistance Kit",
+            "price": 59
+          }
+        ]
+      },
+      {
+        "category": "Interior Options",
+        "categoryGroup": "Interior",
+        "features": [
+          {
+            "name": "Covercraft Pet Seat Cover - Tan",
+            "price": 279
+          },
+          {
+            "name": "Covercraft Pet Seat Cover - Gray",
+            "price": 279
+          },
+          {
+            "name": "Sliding Rear Cargo Deck",
+            "price": 350
+          },
+          {
+            "name": "Leather-Trimmed 50/50 Split Fold Flat Third Row Seat",
+            "price": 1365
+          },
+          {
+            "name": "All Weather Floor Liners",
+            "price": 169
+          },
+          {
+            "name": "Carpet Cargo Mat",
+            "price": 100
+          },
+          {
+            "name": "Carpet Floor Mats",
+            "price": 169
+          },
+          {
+            "name": "Covercraft Pet Seat Cover - Black",
+            "price": 279
+          },
+          {
+            "name": "Cargo Cover",
+            "price": 179
+          },
+          {
+            "name": "Cargo Tray",
+            "price": 100
+          },
+          {
+            "name": "Cargo Divider",
+            "price": 149
+          },
+          {
+            "name": "Dashcam",
+            "price": 499
+          },
+          {
+            "name": "TRD Shift Knob - Black",
+            "price": 99
+          },
+          {
+            "name": "TRD Shift Knob - Silver",
+            "price": 95
+          },
+          {
+            "name": "Cargo Net - Envelope",
+            "price": 49
+          },
+          {
+            "name": "Cargo Tote",
+            "price": 51
+          },
+          {
+            "name": "Coin Holder/Ashtray Cup",
+            "price": 29
+          },
+          {
+            "name": "Universal Tablet Holder",
+            "price": 99
+          }
+        ]
+      },
+      {
+        "category": "Exterior Options",
+        "categoryGroup": "Exterior",
+        "features": [
+          {
+            "name": "Special Color",
+            "price": 425
+          },
+          {
+            "name": "Automatic Running Boards",
+            "price": 1500
+          },
+          {
+            "name": "Alloy Wheel Locks",
+            "price": 80
+          },
+          {
+            "name": "Exhaust Tip - Black Chrome",
+            "price": 90
+          },
+          {
+            "name": "Paint Protection Film (Front Bumper)",
+            "price": 485
+          },
+          {
+            "name": "TRD Front Skid Plate",
+            "price": 350
+          },
+          {
+            "name": "Running Boards",
+            "price": 599
+          },
+          {
+            "name": "Rock Rails",
+            "price": 575
+          },
+          {
+            "name": "Trailer Ball - 2 5/16\"",
+            "price": 29
+          },
+          {
+            "name": "TRD PRO 17\" Alloy Wheels - Matte Black",
+            "price": 1350
+          },
+          {
+            "name": "Trailer Ball - 2\"",
+            "price": 20
+          },
+          {
+            "name": "TRD 17\" Cast Bronze Wheel",
+            "price": 1350
+          },
+          {
+            "name": "Trail Running Boards",
+            "price": 599
+          },
+          {
+            "name": "Mudguards",
+            "price": 129
+          },
+          {
+            "name": "Ball Mount",
+            "price": 60
+          },
+          {
+            "name": "Door Edge Guards",
+            "price": 79
+          },
+          {
+            "name": "Hood Protector",
+            "price": 165
+          },
+          {
+            "name": "Exhaust Tip - Chrome",
+            "price": 90
+          },
+          {
+            "name": "Paint Protection Film",
+            "price": 395
+          },
+          {
+            "name": "Roof Rack Cross Bars",
+            "price": 185
+          }
+        ]
+      }
+    ]
+  }
+}

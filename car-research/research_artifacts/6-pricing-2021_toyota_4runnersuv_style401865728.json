@@ -1,0 +1,113 @@
+{
+  "$dataset": "#/style/401865728/zip/60604/newtmv",
+  "results": {
+    "tmv": {
+      "nationalBasePrice": {
+        "baseMSRP": 47705,
+        "baseInvoice": 43888,
+        "deliveryCharges": null,
+        "tmv": 48303,
+        "estimateTmv": null,
+        "tmvRecommendedRating": null
+      },
+      "optionTMVPrices": {
+        "401865762": {
+          "baseMSRP": 425,
+          "baseInvoice": 378,
+          "deliveryCharges": null,
+          "tmv": 430,
+          "estimateTmv": null,
+          "tmvRecommendedRating": null
+        },
+        "401866047": {
+          "baseMSRP": 79,
+          "baseInvoice": 49,
+          "deliveryCharges": null,
+          "tmv": 80,
+          "estimateTmv": null,
+          "tmvRecommendedRating": null
+        },
+        "401865759": {
+          "baseMSRP": 0,
+          "baseInvoice": 0,
+          "deliveryCharges": null,
+          "tmv": 0,
+          "estimateTmv": null,
+          "tmvRecommendedRating": null
+        },
+        "401866050": {
+          "baseMSRP": 80,
+          "baseInvoice": 50,
+          "deliveryCharges": null,
+          "tmv": 81,
+          "estimateTmv": null,
+          "tmvRecommendedRating": null
+        },
+        "401866042": {
+          "baseMSRP": 90,
+          "baseInvoice": 55,
+          "deliveryCharges": null,
+          "tmv": 91,
+          "estimateTmv": null,
+          "tmvRecommendedRating": null
+        },
+        "401866043": {
+          "baseMSRP": 185,
+          "baseInvoice": 110,
+          "deliveryCharges": null,
+          "tmv": 187,
+          "estimateTmv": null,
+          "tmvRecommendedRating": null
+        },
+        "401866046": {
+          "baseMSRP": 269,
+          "baseInvoice": 165,
+          "deliveryCharges": null,
+          "tmv": 272,
+          "estimateTmv": null,
+          "tmvRecommendedRating": null
+        },
+        "401865770": {
+          "baseMSRP": -1000,
+          "baseInvoice": -870,
+          "deliveryCharges": null,
+          "tmv": -1013,
+          "estimateTmv": null,
+          "tmvRecommendedRating": null
+        }
+      },
+      "regionalAdjustment": {
+        "baseMSRP": null,
+        "baseInvoice": null,
+        "deliveryCharges": null,
+        "tmv": 0,
+        "estimateTmv": null,
+        "tmvRecommendedRating": null
+      },
+      "colorAdjustment": {
+        "baseMSRP": null,
+        "baseInvoice": null,
+        "deliveryCharges": null,
+        "tmv": 0,
+        "estimateTmv": null,
+        "tmvRecommendedRating": null
+      },
+      "destinationCharge": 1215,
+      "regionalAdFee": 500,
+      "totalWithOptions": {
+        "baseMSRP": 49048,
+        "baseInvoice": 45540,
+        "deliveryCharges": null,
+        "tmv": 49646,
+        "estimateTmv": null,
+        "tmvRecommendedRating": null
+      },
+      "incentivesAndRebates": 0,
+      "offerPrice": 49646,
+      "predictedChange": null,
+      "predictedChangeIndicator": null,
+      "gasGuzzlerTax": 0,
+      "estimatedTmv": false
+    }
+  }
+}

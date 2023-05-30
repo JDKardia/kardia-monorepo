@@ -1,0 +1,10 @@
+- Better premium sound system/feature detection
+- generalize scraper functions
+- segment code into scraping and sqlite generation
+- change constants file, maybe add to __init__? look up if that's a good idea.
+- explore ways to increase rps for scraping:
+  * asyncio?
+  * multiprocessing?
+  * make file and scripts?
+  * joblib?:w
+  * different language? nim? ocaml? lisp?
